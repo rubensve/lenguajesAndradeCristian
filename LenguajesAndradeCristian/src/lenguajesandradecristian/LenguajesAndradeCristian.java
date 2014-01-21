@@ -17,6 +17,7 @@ public class LenguajesAndradeCristian {
      */
     public static void main(String[] args) {
         System.out.println("Bienvenido al curso de lenguajes");
+        System.out.println("Nada");
         
     }
     
