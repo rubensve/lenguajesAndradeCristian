@@ -6,9 +6,9 @@ public class TestCirculo {
         c.radio= -15;
         c.area();
         c.peri();
+        System.out.println(c.radio);
     } 
 }
-/*No entendi muy bien lo de impedir que el usuario ingrese numeros negativos
-pero bueno hice un procedimiento dentro de la clase
-para que aunque ingrese negativo el radio siempre sea positivo, espero y 
-este bien, si no es asi me gustaria la retroalimentacion*/
+/*Al momento de correr la aplicacion solamente convierte el dato dentro de las funciones
+pero no evita como tal que el radio ingresado sea negativo
+Lo podemos observar al imprimir el valor del radio ya que nos da el numero negativo*/
