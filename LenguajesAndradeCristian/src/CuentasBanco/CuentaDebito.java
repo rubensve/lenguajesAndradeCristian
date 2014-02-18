@@ -1,4 +1,4 @@
 package CuentasBanco;
-public class CuentaDebito {
+public class CuentaDebito extends Cuenta {
  
 }
