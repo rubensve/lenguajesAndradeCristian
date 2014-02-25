@@ -1,12 +1,11 @@
 package CuentasBanco;
-public class Cuenta {
+public abstract class Cuenta {
 private int id;
 private String nombre;
 private float saldo;
 
-public void crearCuenta(){
-  System.out.println("Cuenta creada con exito");  
-} 
+public abstract void crearCuenta();
+
 public void setId(int id){
     this.id= id;
 }
