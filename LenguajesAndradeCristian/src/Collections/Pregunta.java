@@ -4,13 +4,15 @@ import java.util.*;
 
 public class Pregunta {
 
-public Pregunta(String titulo, ArrayList<Opcion> opciones) {
+public Pregunta(String titulo, ArrayList<Opcion> opciones, int id) {
 this.titulo = titulo;
 this.opciones = opciones;
+this.id=id;
     }
 
 private String titulo;
 private ArrayList<Opcion> opciones;
+private int id;
 
     public String getTitulo() {
         return titulo;

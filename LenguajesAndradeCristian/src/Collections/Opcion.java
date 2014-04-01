@@ -1,13 +1,15 @@
 package Collections;
 public class Opcion {
 
-    public Opcion(String titulo, boolean valor) {
+    public Opcion(String titulo, boolean valor, int id) {
         this.titulo = titulo;
         this.valor = valor;
+        this.id=id;
     }
     
 private String titulo;
 private boolean valor;
+private int id;
 
     public String getTitulo() {
         return titulo;
