@@ -11,6 +11,8 @@ private String titulo;
 private boolean valor;
 private int id;
 
+   
+
     public String getTitulo() {
         return titulo;
     }
